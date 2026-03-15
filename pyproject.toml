@@ -5,6 +5,7 @@ description = "repo-modified models for agent context re-positioning"
 readme = "repose.md"
 requires-python = ">=3.11"
 dependencies = [
+    "peft>=0.18.1",
     "torch>=2.10.0",
     "transformers>=5.3.0",
 ]
