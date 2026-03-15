@@ -1,0 +1,17 @@
+# build / install
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest
+.pytest_cache/
+
+# docs
+docs/

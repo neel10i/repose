@@ -1,0 +1,26 @@
+[project]
+name = "repose"
+version = "0.1.0"
+description = "repo-modified models for agent context re-positioning"
+readme = "repose.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.10.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
