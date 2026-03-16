@@ -5,9 +5,11 @@ description = "repo-modified models for agent context re-positioning"
 readme = "repose.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ddgs>=9.11.4",
     "fastapi>=0.135.1",
     "httpx>=0.28.1",
     "peft>=0.18.1",
+    "smolagents>=1.22.0",
     "torch>=2.10.0",
     "transformers>=5.3.0",
     "uvicorn>=0.41.0",
